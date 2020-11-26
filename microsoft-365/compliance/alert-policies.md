@@ -192,6 +192,9 @@ Keep the following things in mind about alert aggregation:
 
 - At this time, the **Hit count** alert property doesn't indicate the number of aggregated events for all alert policies. For alerts triggered by these alert policies, you can view the aggregated events by clicking **View message list** or **View activity** on the alert. We're working to make the number of aggregated events listed in the **Hit count** alert property available for all alert policies.
 
+> [!IMPORTANT]
+> The "View message list" or "View activity list" option is available on the alert details for 7 days. After 7 days have passed since the alert has been triggered and logged, the message list or activity list, depending on the type of alert at hand, will expire and you will see the following message instead "The activities for this alert have expired".
+
 ## RBAC permissions required to view alerts
 
 The Role Based Access Control (RBAC) permissions assigned to users in your organization determine which alerts a user can see on the **View alerts** page. How is this accomplished? The management roles assigned to users (based on their membership in role groups in the Security & Compliance Center) determine which alert categories a user can see on the **View alerts** page. Here are some examples:
